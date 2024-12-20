@@ -81,7 +81,7 @@ with st.form(key='house_form'):
     st.markdown('<div class="subheader">Enter the house details:</div>', unsafe_allow_html=True)
 
     # Collect user inputs for features
-    col1, col2 = st.columns(3, gap="medium")
+    col1, col2 = st.columns(2, gap='medium')
     with col1:
         rm = st.number_input("Number of bedrooms", min_value=1, max_value=10)
         age = st.number_input("Age of property", min_value=1, max_value=100)
