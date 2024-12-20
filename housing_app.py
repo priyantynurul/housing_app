@@ -93,7 +93,7 @@ with st.form(key='house_form'):
         rad = st.slider("Accessibility to the radial highways (the higher the closer)", min_value=0., max_value=1.)
         ptratio = st.slider("Proportion of student compare to teacher in the area %", min_value=0, max_value=100)
 
-    with col3:
+    with col2:
         crim = st.slider("Criminality rate %", min_value=0, max_value=100)
         zn = st.slider("Proportion of residential zone in the area %", min_value=0, max_value=100)
         indus = st.slider("Proportion of non-retail business in the area %", min_value=0, max_value=100)
